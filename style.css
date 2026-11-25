@@ -180,3 +180,7 @@ main { min-width: 0; padding-bottom: 6rem; }
 .cv-kv { margin: 0; display: grid; gap: 1.25rem; }
 .cv-kv dt { font: 500 .6875rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); margin-bottom: .6rem; }
 .cv-kv dd { margin: 0; }
+
+.hero-quote { margin: 1.25rem 0 0; max-width: 38ch; }
+.hero-quote p { margin: 0; font: italic 300 clamp(1.05rem, 1.6vw, 1.2rem)/1.5 var(--serif); color: oklch(88% 0.015 250); }
+.hero-quote cite { display: block; margin-top: .6rem; font: normal 500 .75rem var(--mono); letter-spacing: .1em; color: var(--pulse); }
