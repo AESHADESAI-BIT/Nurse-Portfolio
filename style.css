@@ -172,3 +172,11 @@ main { min-width: 0; padding-bottom: 6rem; }
   .artifact, .goal { break-inside: avoid; }
   .ph { background: none; box-shadow: none; }
 }
+
+/* Résumé detail rows */
+.cv .summary { margin: 0; max-width: 72ch; }
+.cv li > ul { grid-column: 1 / -1; border: 0; margin: .35rem 0 0; padding-left: 1.1rem; list-style: "–  "; color: var(--ink-2); max-width: 80ch; }
+.cv li > ul li { display: list-item; border: 0; padding: .15rem 0; }
+.cv-kv { margin: 0; display: grid; gap: 1.25rem; }
+.cv-kv dt { font: 500 .6875rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); margin-bottom: .6rem; }
+.cv-kv dd { margin: 0; }
