@@ -42,7 +42,7 @@ time, .num, dd, .cv time { font-variant-numeric: tabular-nums; }
 .hero-name { font: 300 clamp(3.4rem, 10vw, 6rem)/.92 var(--serif); font-variation-settings: "opsz" 144; letter-spacing: -.035em; }
 .hero-name em { display: block; font-style: italic; font-weight: 400; color: var(--pulse); }
 .hero-lede { font: 300 clamp(1.15rem, 2vw, 1.45rem)/1.45 var(--serif); color: oklch(88% 0.015 250); max-width: 34ch; margin: 2rem 0 0; }
-.portrait { width: clamp(11rem, 20vw, 16rem); aspect-ratio: 4 / 5; object-fit: cover; border-radius: 999px 999px 6px 6px; display: block; }
+.portrait { width: clamp(11rem, 20vw, 16rem); aspect-ratio: 1 / 1; object-fit: cover; border-radius: 6px; display: block; }
 .portrait-empty { display: grid; place-items: center; text-align: center; border: 1px dashed oklch(100% 0 0 / .3); color: var(--night-2); font: 500 .75rem/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 
 .hero-meta { max-width: 82rem; margin: clamp(3rem, 7vw, 5rem) auto 0; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid oklch(100% 0 0 / .14); }
